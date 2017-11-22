@@ -2,17 +2,34 @@
 <html>
   <head>
     <title>Home</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
   </head>
   <body>
   <h1>Weather</h1>
-  <div class="dropdown">
-    <button class="dropbtn">Weather Systems</button>
-    <div class="dropdown-content">
-      <a href="http://localhost:5000/storm">Storms</a>
-      <a href="http://localhost:5000/hurricane">Hurricanes</a>
-      <a href="http://localhost:5000/supercell">Supercells</a>
-      <a href="http://localhost:5000/ice_storm">Ice Storms</a>
-    </div>
-  </div>
+  <p>This website is all about severe weather systems and has links to other
+  pages of interest</p>
+  <br>
+  <h2>Storms</h2>
+  <p>This link takes you to information regarding "normal storms" such as
+  rainstorms and lightingstorms and the like</p>
+  <a href="http://localhost:5000/storm">Storm</a>
+  <br>
+  <h2>Hurricanes</h2>
+  <p>This link takes you to a site about hurricanes and there is also a tracker
+  where you can track the path of this years hurricanes and any that are
+  currently inbound to the US</p>
+  <a href="http://localhost:5000/hurricane">Hurricane</a>
+  <br>
+  <h2>Supercells</h2>
+  <p>This link takes you to knowledge regarding the supercell which is
+  essentially a giant storm</p>
+  <a href="http://localhost:5000/supercell">Supercells</a>
+  <br>
+  <h2>Ice Storms</h2>
+  <p>These storms are like normal rain storms but instead instantly freeze when
+  they hit the ground<p>
+  <a href="http://localhost:5000/ice_storm">Ice Storms</a>
   </body>
+</html>
+
+
